@@ -1,0 +1,17 @@
+{
+  "name": "supportbot-ai-agent",
+  "version": "1.0.0",
+  "description": "AI customer-support agent with account, chat, and refund tools",
+  "private": true,
+  "scripts": {
+    "start": "python app.py"
+  },
+  "keywords": ["ai-agent", "customer-support", "llm", "chatbot"],
+  "dependencies": {
+    "stripe": "^14.0.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "openai": "^4.28.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
